@@ -4,7 +4,9 @@ var router = express.Router();
 router.get('/',function(req,res){
   var info = '';
   res.send(`
-  <h1>Stanford Meetups</h1>  
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <h1>Welcome</h1>  
+  <img src="/images/misc/background.jpg" alt="background" style="height: 300px;">
   <p>
     Welcome to our meetup page. 
   </p>
